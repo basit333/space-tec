@@ -1,0 +1,149 @@
+body {
+  background: url(/assets/crew/background-crew-desktop.jpg) no-repeat;
+  background-size: cover;
+}
+
+/* Circles */
+
+.bullets {
+  display: flex;
+  justify-content: space-between;
+  max-width: 150px;
+  z-index: 1;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  background-color: #827d7d;
+  border-radius: 50%;
+}
+
+.common {
+  position: relative;
+}
+
+.hero-section-crew {
+  max-width: 1250px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.crew-sub-heading {
+  color: var(--color-white);
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 100px;
+}
+
+.crew-num {
+  margin-right: 20px;
+  color: #827d7d;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.crew-title-heading {
+  color: #827d7d;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.crew-heading {
+  color: var(--color-white);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom: 25px;
+}
+
+.crew-hero-text {
+  color: #aba3b0;
+  max-width: 370px;
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 100px;
+}
+
+.common-style {
+  z-index: 1;
+}
+
+.crew-right-content {
+  max-width: 500px;
+  height: auto;
+  transform: translate(-17px, 42px);
+}
+
+.crew-img-right {
+  max-width: 100%;
+}
+
+.section-commander {
+  margin-top: 50px;
+}
+
+.crew-content-commander {
+  margin-top: 50px;
+}
+
+.commander {
+  max-width: 400px;
+  transform: translate(-17px, 6px);
+}
+
+.pilot {
+  max-width: 400px;
+  transform: translate(-30px, 70px);
+}
+
+.crew-right-content-specialist {
+  max-width: 337px;
+  transform: translate(-150px, 42px);
+}
+
+.active,
+.circle {
+  transition: all 0.5s linear;
+}
+
+.active,
+.circle:hover {
+  background-color: var(--color-white);
+  cursor: pointer;
+}
+
+.airplane {
+  position: absolute;
+  top: -80px;
+  right: 40%;
+}
+
+.moon {
+  position: absolute;
+  top: 20px;
+  left: 5px;
+}
+
+.nasa {
+  position: absolute;
+  top: 63%;
+  left: 1%;
+}
+
+.engineer {
+  position: absolute;
+  top: 72%;
+  left: 2%;
+}
+
+.aim {
+  position: absolute;
+  top: 59%;
+  left: -2%;
+}
